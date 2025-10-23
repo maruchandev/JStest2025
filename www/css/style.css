@@ -1,7 +1,7 @@
 /**/
 
 html,body {
-  background: skyblue;
+ background-color: blueviolet;
   height: 100%;
 }
 
@@ -11,7 +11,8 @@ html,body {
   padding: 10px;
   margin: 5px;
   height: 40%;
-  background: white;
+  /* background: white; */
+  background-color: cornsilk;
 }
 
 #btn {
