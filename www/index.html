@@ -21,10 +21,14 @@
             });
 
             function main() {
-                $("#disp1").html("Hello, JavaScript!");
+                var msg="Hello, JavaScript!"
+                msg+="<br>";
+                msg+="This is Monaca.";
+                $("#disp1").html(msg);
                 $("#disp1").css("font-size","x-large").css("font-family","");
                 $("#disp1").css("background-color","lightgray");
-                $("#disp1").append("<br>This is Monaca.");
+                // $("#disp1").append("<br>This is Monaca.");
+                
             }
         </script>
     </head>
